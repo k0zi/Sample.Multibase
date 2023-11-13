@@ -1,0 +1,15 @@
+﻿/.vs/Sample.Multibase
+/Alpha/bin/Debug
+/Alpha/obj/Debug
+/Alpha.Sdk/bin/Debug
+/Alpha.Sdk/obj/Debug
+/BaseInfrastructure/bin/Debug
+/BaseInfrastructure/obj/Debug
+/Beta/bin/Debug
+/Beta/obj/Debug
+/Beta.Sdk/bin/Debug
+/Beta.Sdk/obj/Debug
+/Extended/bin/Debug
+/Extended/obj/Debug
+/TestProject/bin/Debug/net7.0
+/TestProject/obj
