@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[E]
+(
+	[Id] INT NOT NULL IDENTITY(1,1),
+	[AId] INT NOT NULL,
+	[CId] INT NOT NULL,
+	CONSTRAINT [PK_E] PRIMARY KEY ([Id]),
+	CONSTRAINT [FK_E_A] FOREIGN KEY ([AId]) REFERENCES [dbo].[A] ([Id]),
+	Constraint [FK_E_C] FOREIGN KEY ([CId]) REFERENCES [dbo].[C] ([Id])
+)

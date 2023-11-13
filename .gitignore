@@ -13,3 +13,6 @@
 /Extended/obj/Debug
 /TestProject/bin/Debug/net7.0
 /TestProject/obj
+*.user
+*.jfm
+*.dbmdl

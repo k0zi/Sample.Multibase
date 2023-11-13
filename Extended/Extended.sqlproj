@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="0.1.12-preview" />
+  <PropertyGroup>
+    <Name>Extended</Name>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{c9d56b18-ddb7-42a9-8c39-662fca289bcc}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Build Include="F.sql" />
+    <Build Include="E.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="..\BaseInfrastructure\$(OutputPath)\BaseInfrastructure.dacpac">
+      <HintPath>..\BaseInfrastructure\$(OutputPath)\BaseInfrastructure.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+    </ArtifactReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".config\dotnet-tools.json" />
+  </ItemGroup>
+</Project>
