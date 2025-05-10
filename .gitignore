@@ -16,3 +16,9 @@
 *.user
 *.jfm
 *.dbmdl
+/TestProject/bin
+/Alpha.Sdk/obj
+/.idea
+/BaseInfrastructure/obj
+/Beta.Sdk/obj
+/Extended/obj
