@@ -23,4 +23,15 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="efcpt-beta-config.json" />
+    <Content Include="efcpt-beta-config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="efcpt-gamma-config.json" />
+    <Content Include="efcpt-gamma-config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
