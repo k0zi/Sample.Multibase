@@ -1,0 +1,17 @@
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/bin/Debug/Gamma.Sdk.dacpac
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/bin/Debug/Gamma.Sdk.deps.json
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/bin/Debug/Gamma.Sdk.dll
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/bin/Debug/Gamma.Sdk.pdb
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/bin/Debug/Alpha.Sdk.dll
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/bin/Debug/Alpha.Sdk.pdb
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/bin/Debug/Alpha.Sdk.dacpac
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/Gamma.Sdk.sqlproj.AssemblyReference.cache
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/Gamma.Sdk.GeneratedMSBuildEditorConfig.editorconfig
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/Gamma.Sdk.sourcelink.json
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/Model.xml
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/refactor.xml
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/postdeploy.sql
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/predeploy.sql
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/Gamma.Sdk.sqlproj.Up2Date
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/Gamma.Sdk.dll
+/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/obj/Debug/Gamma.Sdk.pdb

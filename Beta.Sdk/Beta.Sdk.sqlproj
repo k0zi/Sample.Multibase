@@ -8,15 +8,13 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
   </PropertyGroup>
   <ItemGroup>
-    <ArtifactReference Include="..\Alpha.Sdk\$(OutputPath)\Alpha.Sdk.dacpac">
-      <HintPath>..\Alpha.Sdk\$(OutputPath)\Alpha.Sdk.dacpac</HintPath>
-      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
-    </ArtifactReference>
+    <Content Include="E.sql" />
+    <Content Include="F.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include=".config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".config\dotnet-tools.json" />
+    <ProjectReference Include="..\Alpha.Sdk\Alpha.Sdk.sqlproj">
+      <Project>{c03db7ea-0c35-4a5d-a5e8-b6fd57d3e2a0}</Project>
+      <Name>Alpha.Sdk</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

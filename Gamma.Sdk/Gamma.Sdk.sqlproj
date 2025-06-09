@@ -2,15 +2,15 @@
 <Project DefaultTargets="Build">
   <Sdk Name="Microsoft.Build.Sql" Version="1.0.0" />
   <PropertyGroup>
-    <Name>Alpha.Sdk</Name>
+    <Name>Gamma.Sdk</Name>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
-    <TargetDatabaseSet>True</TargetDatabaseSet>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="A.sql" />
-    <Content Include="B.sql" />
-    <Content Include="C.sql" />
-    <Content Include="D.sql" />
+    <ProjectReference Include="..\Alpha.Sdk\Alpha.Sdk.sqlproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="E.sql" />
+    <Content Include="F.sql" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bwM2ofmBOnM=",
+  "success": true,
+  "projectFilePath": "/home/k0zi/Develop/Sources/Github/Sample.Multibase/Gamma.Sdk/Gamma.Sdk.sqlproj",
+  "expectedPackageFiles": [
+    "/home/k0zi/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/k0zi/.nuget/packages/microsoft.netframework.referenceassemblies.net461/1.0.3/microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
